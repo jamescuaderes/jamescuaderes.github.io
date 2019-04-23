@@ -1,4 +1,4 @@
-#my-name{
+#my-title{
 	border: 1px solid black;
 	text-align: center;
 	background: teal;
@@ -10,3 +10,42 @@
 	top: 100px;
 	border: 5px solid teal;
 }
+
+button.navButton{
+	border: 3px solid teal;
+	background: rgb(220,220,220);
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#bottom-bar{
+	background: teal;
+	border: 1px solid black;
+	text-align: center;
+	position: absolute;
+	width:100%;
+	bottom: 0px;
+	margin-top:  10px; 
+}
+
+#bottom-bar-index{
+	border: 1px solid black;
+	background: teal;
+}
+
+h1.blend{
+	color:teal;
+}
+
+h1.blendIndex{
+	color: teal;
+	background: teal;
+	font-size: 200%;
+}
+
+#career-images{
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+
