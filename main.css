@@ -47,5 +47,11 @@ h1.blendIndex{
 	margin-left: 200px;
 	margin-right: 200px;
 }
+
+window.open(
+  'https:http://google.com',
+  '_blank'
+);
+
  
 
