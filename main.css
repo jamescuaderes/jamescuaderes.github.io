@@ -43,6 +43,10 @@ h1.blendIndex{
 	font-size: 200%;
 }
 
+h2.notBold{
+	font-weight: normal;
+}
+
 #career-images{
 	margin-left: 200px;
 	margin-right: 200px;
