@@ -1,29 +1,33 @@
 <DOCTYPE html>
 <html>
 <head>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
 	<meta charset="utf-8"/>
 	<meta http-equiv="X-UA-Compatible" content="IE-edge">
 	<title> James Cuaderes</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="changes.css"/>
 	<script src="main.js"></script>
 </head>
 
 <body style="font-family: verdana; font-size: 90%;">
+	<nav class="navbar navbar-light bg-light">
+  		<button onclick="window.location.href = 'Career.html';" class="navButton">Career Plans and Interests</button>
+	</nav>
 	<header id ='my-title'>
 		<h1>
 			James Cuaderes
 		</h1>
 	</header>
-	<div class = 'item'>
-		<img id = 'my-image' src="IMG_0976.JPG" alt="A picture of me." width="200" height="240">
-	</div>
-
 	<div>
 		<h2>Navigation</h2>
+		<button type="button" onclick="window.open('CollegeResume10.pdf','_blank')" class="navButton"><h3><b>Resume</b></h3></button>
 		<button type="button" onclick="window.location.href = 'Career.html';" class="navButton"> <h3>Career Plans and Interests</h3></button>
-		<button type="button" onclick="window.location.href='Projects.html';" class="navButton"><h3>Relevant Courswork</h3></button>
-		<button type="button" onclick="window.location.href='SkillsAndCourseWork.html';" class="navButton"><h3>Contact Me</h3></button>
+		<button type="button" onclick="window.location.href='Coursework.html';" class="navButton"><h3>Relevant Courswork</h3></button>
+		<button type="button" onclick="window.open('https://www.linkedin.com/in/jamescuaderes/','_blank')" class="navButton"><h3>LinkedIn</h3></button>
 	</div>
 
 
@@ -32,7 +36,7 @@
 			About me
 		</h2>
 		<p>
-			I am a freshman honors engineering student at Texas A&M University aspiring to major in computer engineering and minor in physics.
+			I am a rising sophomore honors engineering student at Texas A&M University majoring in computer engineering and minoring and physics.
 		</p>
 	</div>
 
@@ -41,22 +45,20 @@
 			Current Work Status
 		</h2>
 		<p>
-			I will be interning with Amazon in their Seattle headquarters this summer of 2019 as an Amazon Future Engineer Software Development Engineering Intern.
+			I am currently interning with Amazon in their Seattle headquarters for the summer of 2019 as an Amazon Future Engineer Software Development Engineering Intern.
 		</p>
 	</div>
-
 	<div id = 'projects'>
-		<h2>
-			Projects
+		<h2 class='notBold'>
+			<b>Projects</b>
 		</h2>
 		<p>
 			<div class = 'card'>
 				<ol>
-					<dl>1. This Website (Work in progress)</dl> 
+					<dl>1. This Website</dl> 
 					<dl>2. AI Snake (See resume for description)</dl>
 					<dl>3. AI Tic Tac Toe (See resume for description)</dl>
-					<dl>4. Hopefully an IOS app at some point </dl>
-					<dl>5. More projects to come...</dl>
+					<dl>4. More projects to come...</dl>
 				</ol>
 		</p>
 	</div>
@@ -66,19 +68,43 @@
 		</h2>
 		<ul>
 			<li>
-				Python
+				<h3>Programming Languages</h3>
+				<ul>
+					<li>
+						Python
+					</li>
+					<li>
+						C++
+					</li>
+					<li>
+						Java
+					</li>
+					<li>
+						Learning web devevelopment with HTML, CSS, and JS currently
+					</li>
+				</ul>
 			</li>
 			<li>
-				C++
+				<h3>Frameworks/Tools</h3>
+				<ul>
+					<li>
+						ReactJS
+					</li>
+					<li>
+						Redux
+					</li>
+					<li>
+						Spring MVC
+					</li>
+				</ul>
 			</li>
 			<li>
-				Java
-			</li>
-			<li>
-				Learning web devevelopment with HTML, CSS, and JS currently
-			</li>
-			<li>
-				Proficient in word, excel, powerpoint, etc.
+				<h3>Other</h3>
+				<ul>
+					<li>
+						Proficient in Microsoft Office Suite
+					</li>
+				</ul>
 			</li>
 		</ul>
 	</div>
@@ -86,14 +112,13 @@
 		<b>BS Computer Engineering, Texas A&M University, GPA: 4.0</b>
 		<p>
 		</p>
-		For an alternate description of myself, view my profile on HireAggies at 
-		<a href="https://tamu-csm.symplicity.com/profiles/james.cuaderes" target="_blank"> https://tamu-csm.symplicity.com/profiles/james.cuaderes</a>
-		<p>
-		</p>
-		<h3>
-		<a href="CollegeResume8.pdf" target="_blank"> <h3>My Resume </h3></a>
-		</h3>
+		For an alternate description of myself, view my profile on HireAggies here:
+		<a href="https://tamu-csm.symplicity.com/profiles/james.cuaderes" target="_blank"> <b>HireAggies</b>.</a>
+		Or visit my LinkedIn profile here: <a href="https://www.linkedin.com/in/jamescuaderes/" target="_blank"> <b>LinkedIn</b></a>
 	</footer>
+	<div>
+		<h6><font color ='white'>hey</font></h6>
+	</div>
 	<div id="bottom-bar-index">
 		<p>
 			<h1 class="blendIndex">Bar</h1>

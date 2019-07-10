@@ -18,10 +18,6 @@ button.navButton{
 	margin-right: 20px;
 }
 
-button.navButton:hover {
-	background: rgb(220,220,220,.5);
-}
-
 #bottom-bar{
 	background: teal;
 	border: 1px solid black;
@@ -60,7 +56,3 @@ window.open(
   'https:http://google.com',
   '_blank'
 );
-
-#gray-background {
-	background: rgb(220,220,220);
-}
