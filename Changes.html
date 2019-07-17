@@ -6,17 +6,12 @@
 	<meta http-equiv="X-UA-Compatible" content="IE-edge">
 	<title> James Cuaderes</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" media="screen" href="changes.css"/>
+	<link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
 	<script src="main.js"></script>
 </head>
 
 <body style="font-family: verdana; font-size: 90%;">
-	<nav class="navbar navbar-light bg-light">
-  		<button onclick="window.location.href = 'Career.html';" class="navButton">Career Plans and Interests</button>
-	</nav>
+	<div id='changes-react-navbar'></div>
 	<header id ='my-title'>
 		<h1>
 			James Cuaderes
@@ -24,6 +19,7 @@
 	</header>
 	<div>
 		<h2>Navigation</h2>
+		<button type="button" onclick="window.location.href = 'index.html';" class="navButton"><h3><b>Home</b></h3></button>
 		<button type="button" onclick="window.open('CollegeResume10.pdf','_blank')" class="navButton"><h3><b>Resume</b></h3></button>
 		<button type="button" onclick="window.location.href = 'Career.html';" class="navButton"> <h3>Career Plans and Interests</h3></button>
 		<button type="button" onclick="window.location.href='Coursework.html';" class="navButton"><h3>Relevant Courswork</h3></button>
@@ -36,7 +32,7 @@
 			About me
 		</h2>
 		<p>
-			I am a rising sophomore honors engineering student at Texas A&M University majoring in computer engineering and minoring and physics.
+			I am a rising sophomore honors engineering student at Texas A&M University majoring in computer engineering and minoring in physics.
 		</p>
 	</div>
 
@@ -62,7 +58,7 @@
 				</ol>
 		</p>
 	</div>
-	<div id = 'skills'>
+	<div>
 		<h2>
 			Skills:
 		</h2>
@@ -124,6 +120,11 @@
 			<h1 class="blendIndex">Bar</h1>
 		</p>
 	</div>
+	<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <script src="changes-react-navbar.js"></script>
 	
 </body>
 

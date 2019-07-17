@@ -1,36 +1,24 @@
 {
-  "name": "test-app",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "bootstrap": "^4.3.1",
-    "react": "^16.8.6",
-    "react-collapsible": "^2.6.0",
-    "react-dom": "^16.8.6",
-    "react-pdf": "^4.1.0",
-    "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1",
-    "reactstrap": "^8.0.0"
-  },
+  "name": "jamescuaderes.github.io",
+  "version": "1.0.0",
+  "description": "{\\rtf1\\ansi\\ansicpg1252\\cocoartf1671\\cocoasubrtf400 {\\fonttbl\\f0\\fswiss\\fcharset0 Helvetica;} {\\colortbl;\\red255\\green255\\blue255;} {\\*\\expandedcolortbl;;} \\margl1440\\margr1440\\vieww10800\\viewh8400\\viewkind0 \\pard\\tx720\\tx1440\\tx2160\\tx2880\\tx3600\\tx4320\\tx5040\\tx5760\\tx6480\\tx7200\\tx7920\\tx8640\\pardirnatural\\partightenfactor0",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamescuaderes/jamescuaderes.github.io.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamescuaderes/jamescuaderes.github.io/issues"
+  },
+  "homepage": "https://github.com/jamescuaderes/jamescuaderes.github.io#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2"
   }
 }
