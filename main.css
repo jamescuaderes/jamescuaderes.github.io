@@ -2,6 +2,7 @@
 	border: 1px solid black;
 	text-align: center;
 	background: teal;
+	overflow: hidden;
 }
 
 #my-image{
@@ -13,9 +14,9 @@
 
 button.navButton{
 	border: 3px solid teal;
-	background: rgb(220,220,220);
-	margin-left: 20px;
-	margin-right: 20px;
+	background: rgb(200,200,200);
+	margin: 0px 5px 0px 5px;
+	border-radius: 7px;
 }
 
 button.navButton:hover {
@@ -63,4 +64,32 @@ window.open(
 
 #gray-background {
 	background: rgb(220,220,220);
+}
+
+.Row
+{
+    display: table;
+    width: 50%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+}
+.Column
+{
+    display: table-cell;
+}
+
+li.navBar {
+	display: inline-block;
+}
+
+ul.navBar {
+	list-style-type: none;
+}
+
+div.navBar {
+	background: rgb(230,230,230);
+	overflow: hidden;
+	text-align: left;
+	padding: 0px;
+	border: 5px solid teal;
 }
