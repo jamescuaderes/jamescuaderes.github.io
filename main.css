@@ -79,7 +79,7 @@ window.open(
 }
 
 li.navBar {
-	display: inline-block;
+	display: inline;
 }
 
 ul.navBar {
