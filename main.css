@@ -34,8 +34,10 @@ button.navButton:hover {
 }
 
 #bottom-bar-index{
-	border: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 	background: teal;
+	margin: 0;
 }
 
 h1.blend{
@@ -66,18 +68,6 @@ window.open(
 	background: rgb(220,220,220);
 }
 
-.Row
-{
-    display: table;
-    width: 50%; /*Optional*/
-    table-layout: fixed; /*Optional*/
-    border-spacing: 10px; /*Optional*/
-}
-.Column
-{
-    display: table-cell;
-}
-
 li.navBar {
 	display: inline;
 }
@@ -92,4 +82,11 @@ div.navBar {
 	text-align: left;
 	padding: 0px;
 	border: 5px solid teal;
+}
+
+div.pageBackground {
+	background: rgb(240,240,240);
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	overflow: hidden;
 }
